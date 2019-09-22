@@ -22,5 +22,5 @@ function currentLine(katzDeliLine){
   if (i = 0){
     deliLine.push(`${i+1}. ${katzDeliLine[i]}`)
   }
-  else (i > 0){ deliLine.push(` ${i+1}. ${katzDeliLine[i]}`)}
-return `The line is currently: ${deliLine}`}
+  else (deliLine.push(` ${i+1}. ${katzDeliLine[i]}`)}
+return `The line is currently: ${deliLine}`);
